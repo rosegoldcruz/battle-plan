@@ -2,9 +2,10 @@ import React, { useState } from 'react'
 import ReactDOM from 'react-dom/client'
 import BattlePlanV1 from '../G3BattlePlan.jsx'
 import BattlePlanV2 from '../G3BattlePlan2.jsx'
+import BattlePlanV3 from '../G3BattlePlan3.jsx'
 
 function App() {
-  const [version, setVersion] = useState(2)
+  const [version, setVersion] = useState(3)
 
   return (
     <>
@@ -34,7 +35,7 @@ function App() {
         }}>
           DRAFT
         </span>
-        {[1, 2].map(v => (
+        {[1, 2, 3].map(v => (
           <button
             key={v}
             onClick={() => setVersion(v)}
@@ -57,7 +58,7 @@ function App() {
         ))}
       </div>
 
-      {version === 1 ? <BattlePlanV1 /> : <BattlePlanV2 />}
+      {version === 1 ? <BattlePlanV1 /> : version === 2 ? <BattlePlanV2 /> : <BattlePlanV3 />}
     </>
   )
 }
