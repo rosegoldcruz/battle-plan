@@ -18,13 +18,13 @@ const opportunityCards = [
     icon: '⚙️',
     title: 'Conversion Control',
     body:
-      'Every lead enters a defined process — follow-up, pipeline tracking, and rep visibility. No guesswork. No missed opportunities.',
+      'Every lead enters a defined process — follow-up, pipeline tracking, and full rep visibility. Structured and consistent.',
   },
   {
     icon: '📊',
     title: 'Revenue Visibility',
     body:
-      'Every dollar can be traced back to its source. Decisions are made based on performance, not assumptions.',
+      'Every dollar traced back to its source. Every decision backed by performance data.',
   },
 ]
 
@@ -34,8 +34,8 @@ const pillars = [
     name: 'Controlled Conversion Environment',
     items: [
       'All paid traffic routes through a controlled conversion environment',
-      'Lead capture happens immediately — no friction, no confusion',
-      'Trust is established before the call, not during it',
+      'Lead capture happens immediately — clean, fast, and focused',
+      'Trust is established before the first call ever happens',
       'Every action is tracked and attributed at entry',
     ],
     outcome:
@@ -45,9 +45,9 @@ const pillars = [
     phase: 'Traffic',
     name: 'Intent-Based Traffic Acquisition',
     items: [
-      'Traffic is sourced based on intent, not guesswork',
+      'Traffic is sourced based on intent and proven audience signals',
       'Each channel is tracked independently and compared against revenue',
-      'Budget follows performance — not preference',
+      'Budget allocation follows performance data at every level',
       'Creative is tested continuously and scaled based on conversion data',
     ],
     outcome:
@@ -63,7 +63,7 @@ const pillars = [
       'No lead exists without a defined next action',
     ],
     outcome:
-      'Zero leads fall through the cracks. Every rep has full context. Every follow-up is enforced.',
+      'Every rep has full context. Every follow-up is enforced. The pipeline runs with precision.',
   },
   {
     phase: 'Revenue Recovery',
@@ -75,7 +75,7 @@ const pillars = [
       'Past buyers activate a referral loop — expanding reach at zero acquisition cost',
     ],
     outcome:
-      'Revenue already paid for is recovered. Retargeting delivers 3–5x the conversion rate of cold traffic at a fraction of the cost.',
+      'Retargeting delivers 3–5x the conversion rate of cold traffic at a fraction of the cost — maximizing every dollar already spent.',
   },
   {
     phase: 'Intelligence Loop',
@@ -98,7 +98,7 @@ const metrics = [
   ['Close Rate', '% of presentations that turn into presale purchases', 'GHL Pipeline'],
   ['Cost Per Closed Deal', 'Total ad spend ÷ total customers — the number that matters most', 'Weekly Report'],
   ['Speed to First Touch', 'Time between opt-in and first rep contact — goal is under 5 minutes', 'GHL Automation Log'],
-  ['Revenue by Source', 'Which channel is generating actual collected revenue, not just leads', 'GHL + Weekly Reconcile'],
+  ['Revenue by Source', 'Which channel is generating actual collected revenue — traced end to end', 'GHL + Weekly Reconcile'],
 ]
 
 const timeline = [
@@ -158,7 +158,7 @@ const ghlCards = [
   ['📞', 'Call Center Integration', 'Call tracking, disposition tagging, rep performance dashboards. The call center and the ad campaigns talk to each other through real data.'],
   ['🏷️', 'Source Attribution', 'Every lead tagged at entry — platform, campaign, ad, landing page. Revenue traced back to its origin. Every dollar of ad spend is accountable.'],
   ['📅', 'Appointment Booking', 'Integrated GHL calendar so leads can self-book a call. No back-and-forth. Confirmation + reminder sequence fires automatically. Show rate improves immediately.'],
-  ['📈', 'Weekly Dashboard', 'One view: all KPIs, all channels, all rep performance. Delivered every Monday before the week starts. Decisions made on data, not feelings.'],
+  ['📈', 'Weekly Dashboard', 'One view: all KPIs, all channels, all rep performance. Delivered every Monday before the week starts. Every decision backed by data.'],
 ]
 
 const visionCards = [
@@ -264,9 +264,8 @@ export default function IronVaultProposal() {
         <p className="hero-sub">Common Wealth Ventures LLC | Lead Generation · Conversion · Revenue Control</p>
         <div className="hero-divider" />
         <p className="hero-tagline">
-          Right now, traffic is optional. Structure is not.
-          Without a controlled acquisition system, every dollar spent is guesswork.
-          With the right system in place, revenue becomes measurable, repeatable, and scalable.
+          A structured acquisition system makes revenue measurable, repeatable, and scalable.
+          This is the infrastructure that turns ad spend into predictable growth.
         </p>
         <div className="hero-meta">
           {heroMeta.map(([label, value]) => (
@@ -293,13 +292,11 @@ export default function IronVaultProposal() {
           <SectionHeader number="01" title="The Opportunity" />
           <div className="vision-card">
             <p>
-              The opportunity is not the token. The opportunity is the system around it.
-              Right now, demand exists — but it is not structured, tracked, or optimized.
-              That means revenue is inconsistent, attribution is unclear, and scaling becomes risky.
-              Fix the system, and everything changes:
-              more qualified leads, higher contact rates, more consistent closes, predictable growth.
-              This is not about getting more traffic.
-              This is about controlling what happens after the lead comes in.
+              The token has momentum. The next step is putting the right system around it —
+              one that drives qualified leads, increases contact rates, produces consistent closes,
+              and delivers predictable growth.
+              This is about building the infrastructure that controls what happens
+              from the moment a lead comes in to the moment they buy.
             </p>
             <div className="vc-label">🎯 The Mission</div>
           </div>
@@ -356,7 +353,7 @@ export default function IronVaultProposal() {
           <SectionHeader number="03" title="What We Track Every Week" />
           <div className="vision-card vision-card-muted compact-card">
             <p>
-              These numbers expose where revenue is won, where it leaks, and where spend
+              These numbers show where revenue is won, where to tighten, and where spend
               should move next. Every decision is backed by data — no guessing, no gut feelings.
             </p>
             <div className="vc-label">Full visibility — weekly dashboard</div>
@@ -424,7 +421,7 @@ export default function IronVaultProposal() {
               every decision becomes clearer.
               Spend increases with confidence.
               Conversion improves with data.
-              Revenue scales without guesswork.
+              Revenue scales with clarity.
               That is the system being built here.
             </p>
           </div>
