@@ -34,8 +34,8 @@ const pillars = [
     name: 'Controlled Conversion Environment',
     items: [
       'All paid traffic routes through a controlled conversion environment',
-      'Lead capture happens immediately — clean, fast, and focused',
-      'Trust is established before the first call ever happens',
+      'Lead capture happens immediately with no friction',
+      'Trust is established before the call, not during it',
       'Every action is tracked and attributed at entry',
     ],
     outcome:
@@ -45,9 +45,9 @@ const pillars = [
     phase: 'Traffic',
     name: 'Intent-Based Traffic Acquisition',
     items: [
-      'Traffic is sourced based on intent and proven audience signals',
-      'Each channel is tracked independently and compared against revenue',
-      'Budget allocation follows performance data at every level',
+      'Traffic is sourced based on intent',
+      'Each channel is measured against revenue, not volume',
+      'Budget follows performance',
       'Creative is tested continuously and scaled based on conversion data',
     ],
     outcome:
@@ -81,10 +81,10 @@ const pillars = [
     phase: 'Intelligence Loop',
     name: 'Sales Floor Feedback — The System Learns',
     items: [
-      'Sales outcomes directly influence traffic strategy',
+      'Sales outcomes drive traffic strategy',
       'Ad messaging evolves based on real objections from calls',
-      'Lead quality is measured by conversion, not volume',
-      'The system improves itself through continuous feedback',
+      'Lead quality is defined by conversion, not volume',
+      'The system improves itself through feedback',
     ],
     outcome:
       'Every week the machine gets sharper. Traffic, messaging, and conversion tighten in a loop that compounds.',
@@ -261,11 +261,11 @@ export default function IronVaultProposal() {
           Revenue Comes From Systems
           <span>Not Traffic</span>
         </h1>
-        <p className="hero-sub">Common Wealth Ventures LLC | Lead Generation · Conversion · Revenue Control</p>
+        <p className="hero-sub">Common Wealth Ventures LLC | Lead Flow · Conversion · Attribution</p>
         <div className="hero-divider" />
         <p className="hero-tagline">
-          A structured acquisition system makes revenue measurable, repeatable, and scalable.
-          This is the infrastructure that turns ad spend into predictable growth.
+          Right now, spend is optional. Structure is not.
+          When the system is controlled, revenue becomes measurable, repeatable, and scalable.
         </p>
         <div className="hero-meta">
           {heroMeta.map(([label, value]) => (
@@ -292,11 +292,12 @@ export default function IronVaultProposal() {
           <SectionHeader number="01" title="The Opportunity" />
           <div className="vision-card">
             <p>
-              The token has momentum. The next step is putting the right system around it —
-              one that drives qualified leads, increases contact rates, produces consistent closes,
-              and delivers predictable growth.
-              This is about building the infrastructure that controls what happens
-              from the moment a lead comes in to the moment they buy.
+              The opportunity is not the token. The opportunity is the system around it.
+              Demand without structure leads to inconsistent revenue, unclear attribution,
+              and missed conversions. When the system is defined, lead flow is controlled,
+              conversion improves, and growth becomes predictable.
+              This is not about more traffic. It&apos;s about controlling what happens
+              after the lead comes in.
             </p>
             <div className="vc-label">🎯 The Mission</div>
           </div>
@@ -417,12 +418,9 @@ export default function IronVaultProposal() {
             <p className="close-headline">Revenue becomes predictable when the system is controlled.</p>
             <p className="close-sub">
               The difference between growth and scale is structure.
-              Once lead flow, conversion, and attribution are aligned,
-              every decision becomes clearer.
-              Spend increases with confidence.
-              Conversion improves with data.
-              Revenue scales with clarity.
-              That is the system being built here.
+              When lead flow, conversion, and attribution are aligned,
+              decisions become clear, spend becomes efficient,
+              and revenue scales without guesswork.
             </p>
           </div>
 
